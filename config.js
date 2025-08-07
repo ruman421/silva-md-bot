@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "",
+    SESSION_ID: process.env.SESSION_ID || "Silva~lIpRjbIC#7cM-wYkLX8yIX1GIjzoW1YoG44P9FXmY6zM7vQJFtAI",
     PREFIX: process.env.PREFIX || ".",
     BOT_NAME: process.env.BOT_NAME || "✦ Silva ✦ MD ✦",
     AUTO_STATUS_REACT: convertToBool(process.env.AUTO_STATUS_REACT, "true"),
@@ -29,11 +29,11 @@ module.exports = {
     AUTO_VOICE: convertToBool(process.env.AUTO_VOICE, "false"),
     AUTO_STICKER: convertToBool(process.env.AUTO_STICKER, "false"),
     AUTO_REPLY: convertToBool(process.env.AUTO_REPLY, "false"),
-    HEART_REACT: convertToBool(process.env.HEART_REACT, "false"),
+    HEART_REACT: convertToBool(process.env.HEART_REACT, "true"),
     OWNER_REACT: convertToBool(process.env.OWNER_REACT, "true"),
     ALWAYS_ONLINE: convertToBool(process.env.ALWAYS_ONLINE, "true"),
     AUTO_TYPING: convertToBool(process.env.AUTO_TYPING, "true"),
-    AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING, "false"),
+    AUTO_RECORDING: convertToBool(process.env.AUTO_RECORDING, "true"),
     
     // Anti-Delete Settings
     ANTIDELETE_GROUP: convertToBool(process.env.ANTIDELETE_GROUP, "true"),
@@ -42,3 +42,4 @@ module.exports = {
     // Debug Settings
     DEBUG: convertToBool(process.env.DEBUG, "true")
 };
+
